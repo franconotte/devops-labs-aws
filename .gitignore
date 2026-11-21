@@ -1,0 +1,15 @@
+# material clonado del curso
+Laboratorios/
+# claves y secretos
+*.pem
+*.key
+rds-password.txt
+ecrtoken*.txt
+# state de terraform: puede contener credenciales en texto plano
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+# ids efimeros de recursos
+ids-*.env
+*.log
