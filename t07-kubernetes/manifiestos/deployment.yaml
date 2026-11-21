@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: 2048-app
+  name: 2048-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: 2048-app
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        app: 2048-app
+    spec:
+      containers:
+      - image: evilroot/docker-2048
+        name: docker-2048
