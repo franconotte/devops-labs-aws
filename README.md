@@ -32,3 +32,11 @@ restricciones específicas del sandbox de AWS Academy.
 No hay credenciales en este repositorio. El `.gitignore` excluye claves privadas,
 archivos de state de Terraform —que guardan secretos en texto plano— y los IDs de
 recursos efímeros.
+
+## Cronología
+
+Los laboratorios se hicieron entre octubre y noviembre de 2026: T04 Cloud y T05 IaC en
+octubre, T06 Containers y T07 Kubernetes en noviembre. Los scripts se escribieron mientras
+se ejecutaba cada laboratorio; este repositorio se publicó al final, con un commit por
+laboratorio para que el historial sea legible. Las fechas de los commits son las de la
+publicación, no las de ejecución.
