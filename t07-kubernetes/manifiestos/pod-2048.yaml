@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    app: pod-2048
+  name: pod-2048
+spec:
+  containers:
+  - image: evilroot/docker-2048
+    name: pod-2048
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
